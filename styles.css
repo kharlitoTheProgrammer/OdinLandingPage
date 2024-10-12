@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.header-and-hero {
+    background: #1f2937;
+    color: #f9faf8;
+    height: 70vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    gap: 48px;
+}
+
+.hero {
+    display: flex;
+    width: 75vw;
+    margin: 0 auto;
+    gap: 4rem;
+}
+
+.hero-text-content {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-btn {
+    width: 100px;
+    padding: 8px 24px;
+    border-style: none;
+    border-radius: 10px;
+    background: #3882f6;
+    color: white;
+}
+
+.hero-img-content {
+    background: #6d747d;
+    height: 14rem;
+    display: flex;
+    flex: 1.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-description {
+    width: 270px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* info-section */
+.box-image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.info-section {
+    text-align: center;
+    margin-top: 50px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section-containers {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-top: 2rem;
+    gap: 6rem;
+}
+
+.info-section-title {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.info-container {
+    width: 150px;
+    text-align: center;
+}
+
+/* quote section */
+.quote-section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e5e7eb;
+}
+
+.quote-description {
+    width: 50vw;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+}
+
+/* last part */
+.last-part-container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3b82f6;
+    color: #f9faf8;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.sign-up-content-title {
+    font-weight: 900;
+}
+
+.sign-up-content-description {
+    font-weight: 300;
+}
+
+.sign-up-btn {
+    border: 1px solid white;
+    background: #3b82f6;
+    color: #f9faf8;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 10vh;
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
